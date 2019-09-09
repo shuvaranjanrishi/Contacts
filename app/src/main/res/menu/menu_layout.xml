@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search Your Contact"
+        android:icon="@drawable/search_contact_icon"
+        android:id="@+id/searchViewId"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:title="Sort By Name"
+        android:id="@+id/sortByNameId"
+        app:showAsAction="never" />
+    <item
+        android:title="Sort By Number"
+        android:id="@+id/sortByNumberId"
+        app:showAsAction="never" />
+</menu>
